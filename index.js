@@ -21,7 +21,7 @@ function Divide(){
         summ = vall_1 / vall_2;
     }
      
-    document.getElementById("result").innerHTML = "Результат = " + ( +summ.toFixed(2) );
+    document.getElementById("result").innerHTML = "Результат = " + ( +summ.toFixed(3) );
 }
 function Multiplaid(){
     let vall_1 = Number(document.getElementById("input1").value);
