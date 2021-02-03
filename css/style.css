@@ -1,0 +1,163 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  user-select: none;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 800px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.conteiner {
+  width: 400px;
+  height: 896px;
+}
+input {
+  background-color: #ffffff;
+  width: 380px;
+  height: 120px;
+  cursor: pointer;
+  text-align: right;
+  outline: none;
+  margin: 32px 10px 10px 10px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.45);
+  border: none;
+}
+.input_display {
+  padding: 20px 20px;
+  font-size: 55px;
+  font-family: Arial;
+}
+.number {
+  color: #484848;
+  background-color: #e0e0e0;
+}
+.number:hover {
+  background-color: #f9f9f9;
+  color: #484848;
+}
+.item {
+  cursor: pointer;
+  font-size: 36px;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.42);
+}
+.serv-1 {
+  color: #ffffff;
+  background-color: #64b0ff;
+}
+.serv.selected {
+  background-color: #ffffff;
+  color: #007cfc;
+}
+.serv-1:hover {
+  background-color: #9eceff;
+}
+.serv {
+  color: #ffffff;
+  background-color: #007cfc;
+}
+.serv:hover {
+  background-color: #71b7ff;
+}
+.section {
+  display: inline-flex;
+}
+.col-3x {
+  width: 33.33px;
+}
+.zero {
+  height: 80px;
+  width: 180px;
+  cursor: pointer;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.42);
+}
+.info {
+  display: block;
+  width: 360px;
+  height: 622px;
+  border: 3px solid #4097ee;
+  margin-top: 32px;
+  overflow: auto;
+}
+.table {
+  padding: 3px;
+  margin-bottom: 25px;
+}
+
+li {
+  font-size: 30px;
+  height: auto;
+  border-bottom: 1px solid #000;
+  list-style: none;
+  padding: 5px 10px;
+  overflow: auto;
+}
+span {
+  font-size: 30px;
+  display: block;
+}
+button {
+  margin-left: 15px;
+  font-size: large;
+}
+.record-del {
+  position: relative;
+  left: 38px;
+}
+/* .form-Notes {
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+} */
+.form-control {
+  width: 100%;
+  height: 100px;
+  font-size: smaller;
+  padding: 8px;
+  font-size: inherit;
+}
+
+.Notise {
+  position: relative;
+  left: 33px;
+}
+.Dialog-Notes {
+  position: absolute;
+  top: 15%;
+  left: 33%;
+  z-index: 1000;
+  width: 500px;
+  height: 500px;
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.45);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.OK {
+  width: 270px;
+  height: 70px;
+  margin: 0 auto;
+}
