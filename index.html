@@ -29,10 +29,14 @@
           </form>
         </div>
         <div class="section">
-          <div class="item clean serv-1" onclick="Del()">AC</div>
+          <div class="item clean serv-1" onclick="handlePressDel()">AC</div>
           <div class="item serv-1" onclick="handlePressPlusMinus()">+/-</div>
           <div class="item serv-1" onclick="handlePressPersent()">%</div>
-          <div id="Divide" class="item serv" onclick="handlePressDivide()">
+          <div
+            id="Divide"
+            class="item serv"
+            onclick="handleSelecteMathFunc('/')"
+          >
             &divide;
           </div>
         </div>
@@ -43,7 +47,7 @@
           <div
             id="Multiplied"
             class="item serv"
-            onclick=" handlePressMultiplied()"
+            onclick=" handleSelecteMathFunc('*')"
           >
             &times;
           </div>
@@ -52,13 +56,21 @@
           <div class="item number" onclick="handlePressNumber('4')">4</div>
           <div class="item number" onclick="handlePressNumber('5')">5</div>
           <div class="item number" onclick="handlePressNumber('6')">6</div>
-          <div id="minus" class="item serv" onclick="handlePressMinus()">-</div>
+          <div
+            id="minus"
+            class="item serv"
+            onclick="handleSelecteMathFunc('-')"
+          >
+            -
+          </div>
         </div>
         <div class="section">
           <div class="item number" onclick="handlePressNumber('1')">1</div>
           <div class="item number" onclick="handlePressNumber('2')">2</div>
           <div class="item number" onclick="handlePressNumber('3')">3</div>
-          <div id="plus" class="item serv" onclick="handlePressPlus()">+</div>
+          <div id="plus" class="item serv" onclick="handleSelecteMathFunc('+')">
+            +
+          </div>
         </div>
         <div class="section">
           <div class="zero number" onclick="handlePressZero('0')">0</div>
